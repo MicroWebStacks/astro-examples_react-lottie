@@ -1,0 +1,13 @@
+vscode:
+  extensions:
+    - astro-build.astro-vscode
+tasks:
+  - before: |
+      # Update node version and run first sample
+    init: |
+      nvm install 18.12.1
+    command: |
+      echo hi
+ports:
+  - port: 3000
+    onOpen: open-preview

@@ -1,5 +1,9 @@
 #  astro-examples_react-lottie
 
+https://www.npmjs.com/package/lottie-react
+https://docs.astro.build/en/guides/integrations-guide/react/
+
+
 ```
 npm create astro@latest -- --template minimal
 ```
