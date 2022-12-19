@@ -1,6 +1,6 @@
 ---
-
-import Lottie from './Lottie';
+import Lottie from "lottie-react";
+import groovyWalkAnimation from "../lottie/groovyWalk.json";
 
 ---
 
@@ -14,6 +14,6 @@ import Lottie from './Lottie';
 	</head>
 	<body>
 		<h1>Astro</h1>
-		<Lottie client:load/>
+		<Lottie animationData={groovyWalkAnimation} loop={true} client:load/>
 	</body>
 </html>
