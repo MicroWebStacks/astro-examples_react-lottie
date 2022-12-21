@@ -20,3 +20,6 @@ npx astro add react
 [![open in Gitpod](./media/gitpod.svg)](https://gitpod.io/?on=gitpod#https://github.com/MicroWebStacks/astro-examples_react-lottie)
 
  groovyWalk.json from https://www.npmjs.com/package/lottie-react
+
+## references
+* https://stackoverflow.com/questions/74551923/how-to-use-lottie-react-in-astro-build-framework/74851823#74851823
